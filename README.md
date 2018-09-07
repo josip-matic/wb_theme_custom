@@ -1,1 +1,1 @@
-# wb_theme_custom
+#Wordpress custom theme for Webbite projects
