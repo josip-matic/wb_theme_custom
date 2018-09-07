@@ -541,3 +541,8 @@ function my_login_logo() { ?>
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+function my_login_logo_url_title() {
+    return 'Webbite Custom theme';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
